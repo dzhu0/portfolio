@@ -1,0 +1,11 @@
+/dist/
+
+/node_modules/
+
+/server-files/images/*
+!/server-files/images/.htaccess
+
+/server-files/tools/mailinfo.php
+/server-files/tools/dbinfo.php
+
+/server-files/vendor/
