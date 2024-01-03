@@ -1,0 +1,29 @@
+{
+    "success": true,
+    "portfolio": [
+        {
+            "id": 1,
+            "name": "HoopsTeams",
+            "description": "Write description of HoopsTeams",
+            "image": "../images/hoops-teams.png",
+            "repository": "https://github.com/dzhu0/hoops-teams",
+            "demo": "http://hoops-teams.infinityfreeapp.com/"
+        },
+        {
+            "id": 2,
+            "name": "Quizzical",
+            "description": "Write description of Quizzical",
+            "image": "../images/quizzical.png",
+            "repository": "https://github.com/dzhu0/quizzical",
+            "demo": "https://quizzical-dzhu0.netlify.app/"
+        },
+        {
+            "id": 3,
+            "name": "Google Keep",
+            "description": "Clone of Google's note-taking service",
+            "image": "../images/google-keep.png",
+            "repository": "https://github.com/dzhu0/google-keep",
+            "demo": "https://google-keep-dzhu0.netlify.app/"
+        }
+    ]
+}

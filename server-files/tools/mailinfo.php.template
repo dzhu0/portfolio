@@ -1,0 +1,23 @@
+<?php
+
+// Your actual email
+// *Required*
+// your@email.com
+define("MY_EMAIL", "your@email.com");
+
+// Your SMTP host
+// *Required*
+// your-smtp-host.com
+define("SMTP_HOST", "your-smtp-host.com");
+
+// Your SMTP host username
+// *Required*
+// your-smtp-username
+define("SMTP_USERNAME", "your-smtp-username");
+
+// Your SMTP host password
+// *Required*
+// your-smtp-password
+define("SMTP_PASSWORD", "your-smtp-password");
+
+?>

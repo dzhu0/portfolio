@@ -4,7 +4,7 @@
     background-size: cover;
 }
 
-.nav-link.active-link {
+nav .active-link {
     border-bottom: 3px solid transparent;
 }
 
