@@ -1,7 +1,5 @@
 import React, { createContext, useState, useEffect } from "react"
 
-import defaultPortfolio from "/public/getportfolio.json"
-
 const PortfolioContext = createContext([])
 
 const PortfolioContextProvider = ({ children }) => {
@@ -24,7 +22,7 @@ const PortfolioContextProvider = ({ children }) => {
     } catch (error) {
       console.error(error)
 
-      const res = await fetch("/public/getportfolio.json")
+      const res = await fetch("/getportfolio.json")
       const data = await res.json()
 
       setPortfolio(data.portfolio)

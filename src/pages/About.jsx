@@ -9,7 +9,7 @@ export default function About() {
 
             <Row className="text-start justify-content-center align-items-center gap-4">
                 <Col xs={8} md={6} lg={4}>
-                    <Image src="/public/images/profile.png" roundedCircle fluid />
+                    <Image src="/images/profile.png" roundedCircle fluid />
                 </Col>
 
                 <Col md={10} lg={6}>
