@@ -18,10 +18,10 @@ export default function Main() {
             <Container className="text-center">
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/experience" element={<Experience />} />
-                    <Route path="/portfolio/:id" element={<Portfolio />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="experience" element={<Experience />} />
+                    <Route path="portfolio/:id" element={<Portfolio />} />
+                    <Route path="contact" element={<Contact />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Container>

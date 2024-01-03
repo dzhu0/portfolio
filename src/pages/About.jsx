@@ -2,8 +2,6 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { Row, Col, Image, Card, Button } from "react-bootstrap"
 
-import profileImage from "../images/profile.png"
-
 export default function About() {
     return (
         <>
@@ -11,7 +9,7 @@ export default function About() {
 
             <Row className="text-start justify-content-center align-items-center gap-4">
                 <Col xs={8} md={6} lg={4}>
-                    <Image src={profileImage} roundedCircle fluid />
+                    <Image src="/images/profile.png" roundedCircle fluid />
                 </Col>
 
                 <Col md={10} lg={6}>
