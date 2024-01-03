@@ -1,0 +1,17 @@
+#root {
+    background-image: url("./images/backgroundImage.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav .active-link {
+    border-bottom: 3px solid transparent;
+}
+
+.active.active-link {
+    border-bottom-color: white;
+}
+
+a.text-light:hover {
+    opacity: 0.8;
+}
