@@ -2,17 +2,22 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { Row, Col, Image, Card, Button } from "react-bootstrap"
 
+// About component representing the content of the about page
 export default function About() {
     return (
         <>
             <h1 className="mb-5">About Me</h1>
 
+            {/* Row containing the user's image and information */}
             <Row className="text-start justify-content-center align-items-center gap-4">
+                {/* Column for the user's image */}
                 <Col xs={8} md={6} lg={4}>
                     <Image src="/images/profile.png" roundedCircle fluid />
                 </Col>
 
+                {/* Column for the user's information */}
                 <Col md={10} lg={6}>
+                    {/* Bootstrap Card component for containing user details */}
                     <Card border="primary">
                         <Card.Header>
                             <Card.Title as="h4" className="text-warning">
@@ -20,6 +25,7 @@ export default function About() {
                             </Card.Title>
                         </Card.Header>
 
+                        {/* Card body with user's description */}
                         <Card.Body>
                             <Card.Text>
                                 Hello! I'm Daniel Zhu, a full-stack web developer currently weaving my
@@ -45,6 +51,7 @@ export default function About() {
                 </Col>
             </Row>
 
+            {/* Button to navigate to the experience page */}
             <Button as={Link} to="/experience" className="mt-5 btn-lg">
                 Check Skills
             </Button>

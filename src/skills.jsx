@@ -1,6 +1,25 @@
-import { faJs, faReact, faBootstrap, faHtml5, faCss3, faPhp, faPython, faNodeJs, faNpm, faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faScrewdriverWrench, faDatabase, faListCheck, faServer } from "@fortawesome/free-solid-svg-icons"
+// Importing required icons from the Font Awesome library
+import {
+    faJs,
+    faReact,
+    faBootstrap,
+    faHtml5,
+    faCss3,
+    faPhp,
+    faPython,
+    faNodeJs,
+    faNpm,
+    faGithub
+} from "@fortawesome/free-brands-svg-icons"
 
+import {
+    faScrewdriverWrench,
+    faDatabase,
+    faListCheck,
+    faServer
+} from "@fortawesome/free-solid-svg-icons"
+
+// Front-end skills data
 export const frontEndSkills = [
     {
         name: "JavaScript",
@@ -28,6 +47,7 @@ export const frontEndSkills = [
     },
 ]
 
+// Back-end skills data
 export const backEndSkills = [
     {
         name: "PHP",
@@ -47,6 +67,7 @@ export const backEndSkills = [
     },
 ]
 
+// Tools skills data
 export const toolsSkills = [
     {
         name: "XAMPP",
@@ -66,6 +87,7 @@ export const toolsSkills = [
     },
 ]
 
+// Other skills data
 export const otherSkills = [
     {
         name: "GitHub",
