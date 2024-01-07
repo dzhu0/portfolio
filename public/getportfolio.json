@@ -4,24 +4,24 @@
         {
             "id": 1,
             "name": "HoopsTeams",
-            "description": "Write description of HoopsTeams",
-            "image": "/images/hoops-teams.png",
+            "description": "HoopsTeams is a Content Management System (CMS) for basketball teams. The system includes features for managing teams, leagues, comments, and user authentication.",
+            "image": "https://dzhu0.000webhostapp.com/images/hoops-teams.png",
             "repository": "https://github.com/dzhu0/hoops-teams",
-            "demo": "http://hoops-teams.infinityfreeapp.com/"
+            "demo": "https://hoops-teams.infinityfreeapp.com/"
         },
         {
             "id": 2,
             "name": "Quizzical",
-            "description": "Write description of Quizzical",
-            "image": "/images/quizzical.png",
+            "description": "Quizzical is a React-based quiz application that fetches general knowledge questions from the Open Trivia Database (OTDB) API and allows users to answer them.",
+            "image": "https://dzhu0.000webhostapp.com/images/quizzical.png",
             "repository": "https://github.com/dzhu0/quizzical",
             "demo": "https://quizzical-dzhu0.netlify.app/"
         },
         {
             "id": 3,
             "name": "Google Keep",
-            "description": "Clone of Google's note-taking service",
-            "image": "/images/google-keep.png",
+            "description": "This project is a web application that mimics the functionality of Google Keep, allowing users to create, edit, and delete notes. The application is built using HTML, CSS, and JavaScript, with Firebase serving as the backend database.",
+            "image": "https://dzhu0.000webhostapp.com/images/google-keep.png",
             "repository": "https://github.com/dzhu0/google-keep",
             "demo": "https://google-keep-dzhu0.netlify.app/"
         }
