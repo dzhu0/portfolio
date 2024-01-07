@@ -31,9 +31,6 @@ export default function Contact() {
             // Sending form data to the server for processing
             const res = await fetch("https://dzhu0.000webhostapp.com/postmessage.php", {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
                 body: JSON.stringify(formData)
             })
 
