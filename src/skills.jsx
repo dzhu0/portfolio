@@ -9,14 +9,22 @@ import {
     faPython,
     faNodeJs,
     faNpm,
-    faGithub
+    faGithub,
+    faAws,
+    faGoogle,
+    faJava,
+    faLinux,
+    faDocker
 } from "@fortawesome/free-brands-svg-icons"
 
 import {
     faScrewdriverWrench,
     faDatabase,
     faListCheck,
-    faServer
+    faFileCode,
+    faServer,
+    faGem,
+    faCode
 } from "@fortawesome/free-solid-svg-icons"
 
 // Front-end skills data
@@ -26,7 +34,15 @@ export const frontEndSkills = [
         icon: faJs,
     },
     {
+        name: "TypeScript",
+        icon: faFileCode,
+    },
+    {
         name: "React",
+        icon: faReact,
+    },
+    {
+        name: "React Router",
         icon: faReact,
     },
     {
@@ -54,6 +70,10 @@ export const backEndSkills = [
         icon: faPhp,
     },
     {
+        name: "PhpMyAdmin",
+        icon: faDatabase,
+    },
+    {
         name: "MySQL",
         icon: faDatabase,
     },
@@ -62,21 +82,41 @@ export const backEndSkills = [
         icon: faPython,
     },
     {
-        name: "PhpMyAdmin",
-        icon: faDatabase,
+        name: "Flask",
+        icon: faPython,
+    },
+    {
+        name: "RESTful API",
+        icon: faCode,
+    },
+    {
+        name: "AWS",
+        icon: faAws,
+    },
+    {
+        name: "Firebase",
+        icon: faGoogle,
+    },
+    {
+        name: "Java",
+        icon: faJava,
+    },
+    {
+        name: "Ruby",
+        icon: faGem,
+    },
+    {
+        name: "Rails",
+        icon: faGem,
+    },
+    {
+        name: "MVC",
+        icon: faCode,
     },
 ]
 
 // Tools skills data
 export const toolsSkills = [
-    {
-        name: "XAMPP",
-        icon: faScrewdriverWrench,
-    },
-    {
-        name: "Composer",
-        icon: faListCheck,
-    },
     {
         name: "NVM",
         icon: faNodeJs,
@@ -84,6 +124,22 @@ export const toolsSkills = [
     {
         name: "NPM",
         icon: faNpm,
+    },
+    {
+        name: "Composer",
+        icon: faListCheck,
+    },
+    {
+        name: "XAMPP",
+        icon: faScrewdriverWrench,
+    },
+    {
+        name: "WSL",
+        icon: faLinux,
+    },
+    {
+        name: "Docker",
+        icon: faDocker,
     },
 ]
 
@@ -99,6 +155,10 @@ export const otherSkills = [
     },
     {
         name: "InfinityFree",
+        icon: faServer,
+    },
+    {
+        name: "000WebHost",
         icon: faServer,
     },
 ]
