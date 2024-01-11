@@ -72,7 +72,7 @@ The project folder structure is organized as follows:
 
 ## Back-End Information
 
-For more information about the back-end - see the [server-files/README.md](README.md) file for details.
+For more information about the back-end - see the [server-files/README.md](server-files/README.md) file for details.
 
 ## License
 
