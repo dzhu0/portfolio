@@ -7,6 +7,9 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 // Footer component representing the bottom section of the application
 export default function Footer() {
+    const date = new Date()
+    const year = date.getFullYear()
+
     return (
         <footer className="text-center py-4 bg-primary">
             {/* Container to hold the content with responsive margins */}
@@ -30,7 +33,7 @@ export default function Footer() {
                         {/* Email link */}
                         Email: <a href="mailto:nielzhu@gmail.com" className="text-light">nielzhu@gmail.com</a>
                         {/* Copyright information */}
-                        <p>© 2023 Daniel Zhu. All rights reserved.</p>
+                        <p>© { year } Daniel Zhu. All rights reserved.</p>
                     </Col>
                 </Row>
             </Container>

@@ -1,10 +1,12 @@
 // Importing required icons from the Font Awesome library
 import {
-    faJs,
-    faReact,
-    faBootstrap,
     faHtml5,
     faCss3,
+    faJs,
+    faReact,
+    faVuejs,
+    faBootstrap,
+    faFigma,
     faPhp,
     faPython,
     faNodeJs,
@@ -24,11 +26,20 @@ import {
     faFileCode,
     faServer,
     faGem,
-    faCode
+    faCode,
+    faRepeat
 } from "@fortawesome/free-solid-svg-icons"
 
 // Front-end skills data
 export const frontEndSkills = [
+    {
+        name: "HTML",
+        icon: faHtml5,
+    },
+    {
+        name: "CSS",
+        icon: faCss3,
+    },
     {
         name: "JavaScript",
         icon: faJs,
@@ -42,60 +53,64 @@ export const frontEndSkills = [
         icon: faReact,
     },
     {
-        name: "React Router",
-        icon: faReact,
-    },
-    {
-        name: "AJAX",
-        icon: faJs,
+        name: "Vue",
+        icon: faVuejs,
     },
     {
         name: "Bootstrap",
         icon: faBootstrap,
     },
     {
-        name: "HTML",
-        icon: faHtml5,
+        name: "Quasar",
+        icon: faVuejs,
     },
     {
-        name: "CSS",
-        icon: faCss3,
+        name: "AJAX",
+        icon: faJs,
+    },
+    {
+        name: "Figma",
+        icon: faFigma,
     },
 ]
 
 // Back-end skills data
 export const backEndSkills = [
     {
-        name: "PHP",
-        icon: faPhp,
-    },
-    {
-        name: "PhpMyAdmin",
-        icon: faDatabase,
-    },
-    {
-        name: "MySQL",
-        icon: faDatabase,
-    },
-    {
-        name: "Python",
-        icon: faPython,
-    },
-    {
-        name: "Flask",
-        icon: faPython,
+        name: "Node.js",
+        icon: faNodeJs,
     },
     {
         name: "RESTful API",
         icon: faCode,
     },
     {
-        name: "AWS",
-        icon: faAws,
+        name: "MySQL",
+        icon: faDatabase,
+    },
+    {
+        name: "PostgreSQL",
+        icon: faDatabase,
+    },
+    {
+        name: "SQLite",
+        icon: faDatabase,
+    },
+    {
+        name: "MongoDB",
+        icon: faDatabase,
     },
     {
         name: "Firebase",
         icon: faGoogle,
+    },
+    {
+        name: "PHP",
+        icon: faPhp,
+    },
+    {
+        name: "Python",
+        icon: faPython,
     },
     {
         name: "Java",
@@ -109,18 +124,10 @@ export const backEndSkills = [
         name: "Rails",
         icon: faGem,
     },
-    {
-        name: "MVC",
-        icon: faCode,
-    },
 ]
 
 // Tools skills data
 export const toolsSkills = [
-    {
-        name: "NVM",
-        icon: faNodeJs,
-    },
     {
         name: "NPM",
         icon: faNpm,
@@ -141,6 +148,10 @@ export const toolsSkills = [
         name: "Docker",
         icon: faDocker,
     },
+    {
+        name: "CI/CD",
+        icon: faRepeat,
+    },
 ]
 
 // Other skills data
@@ -148,6 +159,10 @@ export const otherSkills = [
     {
         name: "GitHub",
         icon: faGithub,
+    },
+    {
+        name: "AWS",
+        icon: faAws,
     },
     {
         name: "Netlify",
@@ -159,6 +174,10 @@ export const otherSkills = [
     },
     {
         name: "000WebHost",
+        icon: faServer,
+    },
+    {
+        name: "Vercel",
         icon: faServer,
     },
 ]

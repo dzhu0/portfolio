@@ -28,8 +28,8 @@ export default function About() {
                         {/* Card body with user's description */}
                         <Card.Body>
                             <Card.Text>
-                                Hello! I'm Daniel Zhu, a full-stack web developer currently weaving my
-                                magic at Red River College Polytechnic. My days are filled with lines
+                                Hello! I'm Daniel Zhu, a full-stack web developer and a proud graduate
+                                of Red River College Polytechnic. My days are filled with lines
                                 of code and a passion for creating websites that solve real-world
                                 problems. As a full-stack enthusiast, I thrive on front-end aesthetics
                                 and back-end functionality challenges.
